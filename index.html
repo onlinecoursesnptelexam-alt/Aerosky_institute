@@ -23,7 +23,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
 
             <div class="logo-text">
 
-                <h2>AEROSKY</h2>
+                <h2>AiRosKy</h2>
 
                 <span>INSTITUTE OF FIRE & SAFETY EXCELLENCE</span>
 
@@ -35,16 +35,15 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         <nav>
 
             <ul class="nav-links">
+                <li><a href="#">Home</a></li>
 
                 <li><a href="#">About</a></li>
 
                 <li><a href="#">Courses</a></li>
 
-                <li><a href="#">Corporate Training</a></li>
+                <li><a href="#">Certifications</a></li>
 
                 <li><a href="#">Placements</a></li>
-
-                <li><a href="#">Gallery</a></li>
 
                 <li><a href="#">Contact</a></li>
 
@@ -62,6 +61,11 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
                 +91 99999 99999
 
             </a>
+            <button id="openPopup" class="btn-enquiry">
+
+              Enquiry
+
+            </button>
 
             <a href="#" class="btn-enroll">
 
@@ -72,13 +76,220 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         </div>
 
         <!-- Mobile Toggle -->
-        <div class="menu-btn">
+        <div class="menu-btn" id="menuOpen">
 
             <i class="fa-solid fa-bars"></i>
 
         </div>
 
     </div>
+
+    <!-- =============================
+     MOBILE MENU
+============================= -->
+
+<div class="mobile-overlay" id="mobileOverlay">
+
+    <aside class="mobile-menu">
+
+        <button class="close-menu" id="menuClose">
+
+            <i class="fa-solid fa-xmark"></i>
+
+        </button>
+
+        <!-- Logo -->
+
+        <div class="mobile-logo">
+
+            <img src="airoskylogo.jpeg" alt="Logo">
+
+            <div>
+
+                <h2>AEROSKY</h2>
+
+                <p>Institute of Fire & Safety Excellence</p>
+
+            </div>
+
+        </div>
+
+        <!-- Navigation -->
+
+        <ul class="mobile-nav">
+
+            <li><a href="#">Home</a></li>
+
+            <li><a href="#">About</a></li>
+
+            <li><a href="#">Courses</a></li>
+
+            <li><a href="#">Certifications</a></li>
+
+            <li><a href="#">Placements</a></li>
+
+        </ul>
+
+        <!-- Contact -->
+
+        <div class="mobile-contact">
+
+            <h3>Contact Us</h3>
+
+            <a href="tel:9876543210">
+                <i class="fa-solid fa-phone"></i>
+                Call : 9876543210
+            </a>
+
+            <a href="https://wa.me/919876543210">
+                <i class="fa-brands fa-whatsapp"></i>
+                WhatsApp : 9876543210
+            </a>
+
+            <a href="mailto:airosky@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+                airosky@gmail.com
+            </a>
+
+        </div>
+
+        <!-- Button -->
+
+        <a href="#" class="mobile-enroll">
+
+            Enroll Now
+
+        </a>
+
+    </aside>
+
+</div>
+<!-- ===========================
+ ENQUIRY POPUP
+=========================== -->
+
+<div class="popup-overlay" id="popup">
+
+    <div class="popup-box">
+
+        <button class="close-popup" id="closePopup">
+
+            <i class="fa-solid fa-xmark"></i>
+
+        </button>
+
+        <div class="popup-left">
+
+            <h2>Let's Build Your Career</h2>
+
+            <p>
+
+                Fill in your details and our admission counsellor
+                will contact you shortly.
+
+            </p>
+
+            <div class="popup-feature">
+
+                <i class="fa-solid fa-circle-check"></i>
+
+                Free Career Counselling
+
+            </div>
+
+            <div class="popup-feature">
+
+                <i class="fa-solid fa-circle-check"></i>
+
+                Placement Assistance
+
+            </div>
+
+            <div class="popup-feature">
+
+                <i class="fa-solid fa-circle-check"></i>
+
+                Industry Certifications
+
+            </div>
+
+        </div>
+
+        <div class="popup-right">
+
+            <form>
+
+                <div class="input-box">
+
+                    <i class="fa-solid fa-user"></i>
+
+                    <input
+                    type="text"
+                    placeholder="Full Name"
+                    required>
+
+                </div>
+
+                <div class="input-box">
+
+                    <i class="fa-solid fa-phone"></i>
+
+                    <input
+                    type="tel"
+                    placeholder="Mobile Number"
+                    required>
+
+                </div>
+
+                <div class="input-box">
+
+                    <i class="fa-solid fa-envelope"></i>
+
+                    <input
+                    type="email"
+                    placeholder="Email Address">
+
+                </div>
+
+                <div class="input-box">
+
+                    <i class="fa-solid fa-book"></i>
+
+                    <select>
+
+                        <option>Select Course</option>
+
+                        <option>Fire & Safety</option>
+
+                        <option>Industrial Safety</option>
+
+                        <option>NEBOSH</option>
+
+                        <option>IOSH</option>
+
+                        <option>Diploma</option>
+
+                    </select>
+
+                </div>
+
+                <textarea
+                placeholder="Message (Optional)"
+                rows="4"></textarea>
+
+                <button type="submit" class="submit-btn">
+
+                    Submit Enquiry
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</div>
 
 </header>
 <!-- Navbar End -->
@@ -167,7 +378,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         <div class="about-content">
 
             <span class="section-tag">
-                About AEROSKY
+                About AiRosKy
             </span>
 
             <h2>
@@ -176,7 +387,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
             </h2>
 
             <p>
-                AEROSKY Institute of Fire & Safety Excellence provides
+                AiRosKy Institute of Fire & Safety Excellence provides
                 professional training programs in Fire Safety,
                 Industrial Safety, Health & Safety Management,
                 NEBOSH, IOSH and Corporate Safety Training.
@@ -543,7 +754,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
             </h2>
 
             <p>
-                Join AEROSKY Institute of Fire & Safety Excellence and build
+                Join AiRosKy Institute of Fire & Safety Excellence and build
                 a successful career with globally recognized certifications.
             </p>
 
@@ -579,7 +790,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
                      class="footer-logo">
 
                 <h3>
-                    AEROSKY Institute of Fire &
+                    AiRosKy Institute of Fire &
                     Safety Excellence
                 </h3>
 
@@ -647,7 +858,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         <div class="footer-bottom">
 
             <p>
-                © 2026 AEROSKY Institute of Fire & Safety Excellence.
+                © 2026 AiRosKy Institute of Fire & Safety Excellence.
                 All Rights Reserved.
             </p>
 
